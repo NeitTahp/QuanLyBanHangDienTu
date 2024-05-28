@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrangChu"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trang chủ"
+        android:textSize="30dp"
+        android:textColor="#FD0808"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnCRUD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="CRUD sản phẩm"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/btnMuaBanSP"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Mua bán sản phẩm"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+</LinearLayout>

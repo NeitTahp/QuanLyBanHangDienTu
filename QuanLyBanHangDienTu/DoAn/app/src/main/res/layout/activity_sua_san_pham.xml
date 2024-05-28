@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CRUD.EditProductActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_circle_left_24"
+            android:background="#227698"
+            android:id="@+id/ivBack"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Hãy chọn sản phẩm bạn muốn thay đổi"
+            android:gravity="center"
+            android:background="#227698"
+            android:paddingRight="50dp"
+            android:textColor="#000"
+            />
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_search_24"
+            android:background="#227698"
+            android:id="@+id/ivTim"
+            />
+    </LinearLayout>
+    <ListView
+        android:divider="#03A9F4"
+        android:dividerHeight="2dp"
+        android:listSelector="#D46DFA"
+        android:id="@+id/lv_sanpham"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

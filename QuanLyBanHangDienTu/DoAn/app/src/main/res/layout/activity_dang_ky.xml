@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKy"
+    android:orientation="vertical"
+    android:background="#2BAF66">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup to your account"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/edtFirstName"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="First name"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+        <EditText
+            android:id="@+id/edtLastName"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edtTaiKhoan"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email/Mobile Number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edtMatKhau"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#FFF"
+            android:inputType="textPassword"
+            android:textColor="#FFF"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edtMatKhauNL"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Re-enter Password"
+            android:textColorHint="#FFF"
+            android:inputType="textPassword"
+            android:textColor="#FFF"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:backgroundTint="#FFF"
+
+            android:text="Create"
+            android:textColor="#2BAF66"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

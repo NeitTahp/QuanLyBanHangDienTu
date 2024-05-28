@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Sản phẩm"
+        android:icon="@drawable/baseline_dehaze_24"
+        android:id="@+id/mnSanPham">
+        <menu>
+            <item
+                android:id="@+id/mnThemsp"
+                android:title="Thêm Sản Phẩm"
+                android:icon="@drawable/baseline_playlist_add_24"/>
+            <item
+                android:id="@+id/mnXoasp"
+                android:title="Xóa Sản Phẩm"
+                android:icon="@drawable/baseline_delete_forever_24"/>
+            <item
+                android:id="@+id/mnSuasp"
+                android:title="Sửa Sản Phẩm"
+                android:icon="@drawable/baseline_edit_24"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnLoaiSanPham"
+        android:title="Loại Sản Phẩm"
+        android:icon="@drawable/baseline_playlist_add_24">
+        <menu>
+            <item
+                android:id="@+id/mnCRUDlsp"
+                android:title="CRUD loại Sản Phẩm"
+                android:icon="@drawable/baseline_playlist_add_24"/>
+
+        </menu>
+    </item>
+
+</menu>

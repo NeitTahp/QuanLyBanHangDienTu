@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Tìm kiếm"
+        android:icon="@drawable/baseline_search_24"
+        android:id="@+id/mnTimKiem"/>
+    <item
+        android:title="Thể Loại"
+        android:icon="@drawable/baseline_favorite_24"
+        android:id="@+id/mnTheLoai"/>
+
+
+    <item
+        android:title="Dỏ hàng"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:id="@+id/mnDoHang"/>
+    <item
+        android:title="Danh mục"
+        android:icon="@drawable/baseline_dehaze_24"
+        android:id="@+id/mnChonDM">
+        <menu>
+            <item
+                android:id="@+id/mnThongKe"
+                android:title="Thống Kê"
+                android:icon="@drawable/baseline_filter_drama_24"
+                />
+            <item
+                android:id="@+id/mnLichSu"
+                android:title="Lịch Sử"
+                android:icon="@drawable/baseline_history_24"/>
+
+        </menu>
+    </item>
+
+</menu>

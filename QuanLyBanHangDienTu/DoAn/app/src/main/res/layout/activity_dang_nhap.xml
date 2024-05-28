@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhap"
+    android:orientation="vertical"
+    android:background="#2BAF66">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to your account"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/edtTaiKhoan"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email/Mobile Number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+        <EditText
+            android:id="@+id/edtMatKhau"
+            android:background="@drawable/vien"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#FFF"
+            android:inputType="textPassword"
+            android:textColor="#FFF"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:backgroundTint="#FFF"
+
+            android:text="Login"
+            android:textColor="#2BAF66"
+            />
+        <Button
+            android:id="@+id/btnQuenMK"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2BAF66"
+            android:text="Forgot your password?"
+            android:textColor="#FFF"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Don’t have an account?"/>
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2BAF66"
+                android:text="Sign up"
+                android:textColor="#FFF"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

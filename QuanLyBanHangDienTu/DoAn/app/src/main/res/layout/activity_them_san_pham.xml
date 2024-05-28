@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CRUD.AddProductActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_circle_left_24"
+            android:background="#AE9F9F"
+            android:id="@+id/ivBack"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hãy Nhập Thông Tin Sản Phẩm Bạn Muốn Thêm"
+            android:gravity="center"
+            android:background="#AE9F9F"
+            android:paddingRight="40dp"
+            android:textSize="20dp"
+            android:textColor="#3F51B5"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtMaSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã Sản Phẩm"
+        android:textColorHint="#F44336"
+        />
+    <EditText
+        android:id="@+id/edtTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Tên Sản Phẩm"
+        android:textColorHint="#F44336"
+        />
+    <EditText
+        android:id="@+id/edtGiaSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá Sản Phẩm"
+        android:inputType="number"
+        android:textColorHint="#F44336"
+        />
+    <EditText
+        android:id="@+id/edtSoLuongSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Số lượng Sản Phẩm"
+        android:inputType="number"
+        android:textColorHint="#F44336"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spLoaiSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/ivHinh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <Spinner
+            android:id="@+id/hinhsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/ivHinh2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2A5E2C"
+            android:text="Thêm"
+            android:textColor="#FFEB3B"
+            />
+
+        <Button
+            android:id="@+id/btnLamMoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2A5E2C"
+            android:layout_margin="20dp"
+            android:text="Làm Mới"
+            android:textColor="#FFEB3B"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
